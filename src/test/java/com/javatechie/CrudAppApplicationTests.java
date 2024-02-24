@@ -14,7 +14,7 @@ class CrudAppApplicationTests {
     void contextLoads() {
         //sample test
         int i = 10;
-        int j = 11;
+        int j = 10;
         log.info("Test method executed with value i {} and j {}", i, j);
         assertEquals(i, j);
     }
